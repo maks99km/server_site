@@ -43,24 +43,16 @@
   <div class="row">
     
     <div class="col-md-8 order-md-1">
-      <h4 class="mb-3">Billing address</h4>
+      <h4 class="mb-3">Regisration new user</h4>
       <form class="needs-validation" novalidate>
         <div class="row">
           <div class="col-md-6 mb-3">
-            <label for="firstName">First name</label>
-            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            <label for="full_name">Full name</label>
+            <input type="text" class="form-control" id="full_name" placeholder="" value="" required>
             <div class="invalid-feedback">
               Valid first name is required.
             </div>
           </div>
-          <div class="col-md-6 mb-3">
-            <label for="lastName">Last name</label>
-            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-            <div class="invalid-feedback">
-              Valid last name is required.
-            </div>
-          </div>
-        </div>
 
         <div class="mb-3">
           <label for="username">Username</label>
@@ -93,8 +85,8 @@
 
         <hr class="mb-4">
         <div class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="same-address" required>
-          <label class="custom-control-label" for="same-address">Я согласен на обработку предоставленных данных</label>
+          <input type="checkbox" class="custom-control-input" id="agree" required>
+          <label class="custom-control-label" for="agree">Я согласен на обработку предоставленных данных</label>
         </div>
         <hr class="mb-4">
         <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
